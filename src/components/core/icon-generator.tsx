@@ -978,8 +978,9 @@ export default function Icons({
     ),
     'check-green-rounded': (
       <svg
-        width="18"
-        height="18"
+        width={size || 18}
+        height={size || 18}
+        className={className}
         viewBox="0 0 18 18"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
