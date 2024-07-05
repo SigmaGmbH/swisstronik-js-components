@@ -18,8 +18,8 @@ export default function Icons({
   let icons = {
     info: (
       <svg
-        width={size}
-        height={size}
+        width={size || 16}
+        height={size || 16}
         viewBox='0 0 20 20'
         fill={`none`}
         className={className}
